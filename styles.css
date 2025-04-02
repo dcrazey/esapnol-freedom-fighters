@@ -21,7 +21,7 @@
 /* General Body Styling */
 body {
     font-family: var(--font-body);
-    color: var(--text-off-white); /* Charcoal text */
+    color: #000000;/*var(--text-off-white)*/; /* Charcoal text */
     line-height: 1.6;
     background-color: var(--bg-dark-green-deep); /* White background */
     display: flex;
@@ -46,7 +46,7 @@ body.goya-bg, body.about-page {
 /* Header and Navigation */
 header {
     background-color: var(--bg-earthy-brown); /* White Nav */
-    color: var(--text-off-white);
+    color:#000000; /* var(--text-off-white);*/
     padding: 0.8rem 0;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); /* Darker shadow */
     position: sticky;
@@ -68,7 +68,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--text-off-white);
+    color:#000000; /* var(--text-off-white);*/
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 0.8rem;
@@ -83,26 +83,26 @@ nav ul li a:hover, nav ul li a.active {
 
 /* Hero Section (Homepage) */
 .hero {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url('images/forest_dark_placeholder.jpg') no-repeat center center; /* Replace placeholder */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('images/forest_dark_placeholder.png') no-repeat center center; /* Replace placeholder */
     background-size: cover;
-    color: var(--text-off-white);
+    color:#000000; /* var(--text-off-white);*/
     text-align: center;
-    padding: 4rem 1rem;
+    padding: 1.5rem 1rem;
     animation: slideDownHero 1s ease-out;
     border-bottom: 3px solid var(--accent-muted-red); /* Dark Red border */
 }
 
 .hero h1 {
-    font-family: var(--font-heading);
+    font-family:#000000; /* var(--text-off-white);*/
     font-size: 2.8rem;
     margin-bottom: 1rem;
-    color: var(--text-off-white); /* Main title light */
+    color:#000000; /* var(--text-off-white);*/ /* Main title light */
     text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
 
 .hero p {
     font-size: 1.1rem;
-    color: var(--text-off-white);
+    color:#000000; /* var(--text-off-white);*/
 }
 
 @keyframes slideDownHero {
